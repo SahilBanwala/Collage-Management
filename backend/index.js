@@ -17,7 +17,7 @@ app.use(express.json({ limit: '10mb' }))
 app.use(cors())
 
 mongoose
-    .connect("mongodb+srv://sahilbanwala2002:sahil@cluster0.6y96tdf.mongodb.net/CollageManagement", {
+    .connect("", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
